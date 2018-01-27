@@ -26,6 +26,13 @@ public class DialControl : MonoBehaviour {
         return acceleration;
     }
 
+    public static float Direction() {
+        float velocity = Velocity();
+        if (velocity == 0)
+            return 0;
+        return Mathf.Sign(Velocity());
+    }
+
     public static bool GetButtonDown() {
         return Input.GetButtonDown("DialButton");
     }
