@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+[Serializable]
 public class Channel : IChannelBase{
+
+	public string channelname;
 
     public void Win() {
 
