@@ -11,6 +11,6 @@ public class RotateGame : MonoBehaviour {
         Quaternion rotation = this.transform.rotation;
         float position = DialControl.Position() * sensitivity;
         rotation.eulerAngles = new Vector3(rotation.eulerAngles.x, rotation.eulerAngles.y, position);
-        this.transform.rotation = rotation;
+        this.transform.rotation = Quaternion.Lerp(this.transform.rotation, rotation, 6f * Time.deltaTime);
 	}
 }
