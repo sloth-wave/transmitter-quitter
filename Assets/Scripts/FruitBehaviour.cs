@@ -11,6 +11,7 @@ public class FruitBehaviour : MonoBehaviour {
     public GameObject[] slicedFruits;
 
     public bool lockedPosition = false;
+    public bool lockedSlices   = false;
 
     public int layer = 0;
 
@@ -39,7 +40,7 @@ public class FruitBehaviour : MonoBehaviour {
             slicedFruits[i] = new GameObject();
             slicedFruits[i].transform.parent = this.transform;
             slicedFruits[i].transform.position = this.transform.position;
-            slicedFruits[i].gameObject.AddComponent<SpriteRenderer>().sprite = slicedFruitsSprites[fruit + i];
+            slicedFruits[i].gameObject.AddComponent<SpriteRenderer>().sprite = slicedFruitsSprites[2 * fruit + i];
             slicedFruits[i].AddComponent<Rigidbody2D>();
             slicedFruits[i].SetActive(false);
         }
@@ -56,9 +57,11 @@ public class FruitBehaviour : MonoBehaviour {
             slicedFruits[i].transform.parent = null;
             slicedFruits[i].SetActive(true);
             slicedFruits[i].gameObject.GetComponent<SpriteRenderer>().sortingOrder = layer;
-            if (lockedPosition) {
+
+            if (lockedSlices) {
                 slicedFruits[i].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
-            } else {
+            }
+            else {
                 slicedFruits[i].GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-10, 10), 0);
             }
         }
