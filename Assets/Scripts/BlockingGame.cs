@@ -3,17 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockingGame : MonoBehaviour {
-
-    private GameObject screen;
+    
     public float sensitivity;
-    float position = 0;
+    public float min, max;
+    public float position;
+
+    public Camera cam;
+
+    float height;
+    float width;
+
     void Start() {
-        screen = GameObject.FindGameObjectWithTag("Screen");
+        height = 2* cam.orthographicSize;
+        width = height* Camera.main.aspect;
     }
 
 	// Update is called once per frame
 	void Update () {
-        position = Mathf.Clamp(DialControl.Position(), -screen.transform.lossyScale.x / 2, screen.transform.lossyScale.x / 2);
+        position = DialControl.ClampedPosition(position, -width / 2, width / 2);
         this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(position, this.transform.position.y, this.transform.position.z), 6f * Time.deltaTime);
 	}
 }
