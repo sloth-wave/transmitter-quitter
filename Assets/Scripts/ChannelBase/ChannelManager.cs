@@ -5,15 +5,8 @@ using UnityEngine;
 
 public class ChannelManager : MonoBehaviour {
 
-    //List<IChannel> channel = new List<IChannel>();
-	public Scene currentChannel;
-	public Scene nextChannel;
 
-    public ChannelManager() 
-	{
-    }
-
-	public void ChangeToNextChannel()
+	public static void ChangeToNextChannel()
 	{
 		int sceneIndex = SceneManager.GetActiveScene ().buildIndex;
 		sceneIndex++;
@@ -21,7 +14,7 @@ public class ChannelManager : MonoBehaviour {
 		SceneManager.LoadScene(sceneIndex);
 	}
 
-	public void ChangeToSceneByIndex(int sceneIndex)
+	public static void ChangeToSceneByIndex(int sceneIndex)
 	{
 		SceneManager.LoadScene (sceneIndex);
 	}
