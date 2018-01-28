@@ -8,6 +8,7 @@ public class RotateGame : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
         Quaternion rotation = this.transform.rotation;
         float position = DialControl.Position() * sensitivity;
         rotation.eulerAngles = new Vector3(rotation.eulerAngles.x, rotation.eulerAngles.y, position);
