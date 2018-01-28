@@ -8,7 +8,7 @@ public class FruitBehaviour : MonoBehaviour {
 
     public Sprite[] slicedFruitsSprites;
 
-    public GameObject[] slicedFruits;
+    GameObject[] slicedFruits;
 
     public bool lockedPosition = false;
     public bool lockedSlices   = false;

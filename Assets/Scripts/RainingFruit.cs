@@ -8,8 +8,6 @@ public class RainingFruit : MonoBehaviour {
 
     public Sprite[] slicedFruitsSprites;
 
-    public GameObject[] slicedFruits;
-
     [Space]
 
     public float numberOfFruit = 10;
@@ -27,7 +25,6 @@ public class RainingFruit : MonoBehaviour {
             FruitBehaviour fruit = go.AddComponent<FruitBehaviour>();
             fruit.fruits = fruits;
             fruit.slicedFruitsSprites = slicedFruitsSprites;
-            fruit.slicedFruits = slicedFruits;
 
             timer = timeBetweenSpawn;
         }
