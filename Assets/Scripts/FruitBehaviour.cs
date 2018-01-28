@@ -12,6 +12,8 @@ public class FruitBehaviour : MonoBehaviour {
 
     public bool lockedPosition = false;
 
+    public int layer = 0;
+
     CircleCollider2D collider;
 
     SpriteRenderer render;
@@ -22,6 +24,7 @@ public class FruitBehaviour : MonoBehaviour {
         render = this.gameObject.AddComponent<SpriteRenderer>();
         int fruit = Mathf.RoundToInt(Random.Range(0, fruits.Length - 1));
         render.sprite = fruits[fruit];
+        render.sortingOrder = layer;
 
         rigid = this.gameObject.AddComponent<Rigidbody2D>();
         collider = this.gameObject.AddComponent<CircleCollider2D>();
@@ -42,16 +45,17 @@ public class FruitBehaviour : MonoBehaviour {
         }
 
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
     void OnDestroy(){
         for (int i = 0; i < 2; i++) {
             slicedFruits[i].transform.parent = null;
             slicedFruits[i].SetActive(true);
+            slicedFruits[i].gameObject.GetComponent<SpriteRenderer>().sortingOrder = layer;
             if (lockedPosition) {
                 slicedFruits[i].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
             } else {
