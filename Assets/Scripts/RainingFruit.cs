@@ -15,8 +15,8 @@ public class RainingFruit : MonoBehaviour {
 
         if (timer < 0) {
             GameObject go = new GameObject();
+            go.transform.position = spawnPoints[Mathf.RoundToInt(Random.Range(0, spawnPoints.Length))].transform.position;
             FruitBehaviour fruit = go.AddComponent<FruitBehaviour>();
-            fruit.gameObject.transform.position = spawnPoints[Mathf.RoundToInt(Random.Range(0, spawnPoints.Length))].transform.position;
             timer = timeBetweenSpawn;
         }
 
