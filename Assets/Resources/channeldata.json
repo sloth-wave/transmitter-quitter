@@ -1,7 +1,12 @@
 ﻿{
 	"channels": [{
-		"channelname": "Channel One"
+		"channelname": "Channel One",
+		"channelType":"BlockingGame",
+		"spriteArray":["sprite_01","sprite_02","sprite_03"]
+
 	}, {
-		"channelname": "Channel Two"
+		"channelname": "Channel Two",
+		"channelType": "GirrafHead",
+		"spriteArray":["sprite_01","sprite_02","sprite_03"]
 	}]
 }

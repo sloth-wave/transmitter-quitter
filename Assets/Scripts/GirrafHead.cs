@@ -8,6 +8,7 @@ public class GirrafHead : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        this.transform.position = follow.transform.position;
+		this.transform.position = follow.transform.position; 
 	}
+
 }
