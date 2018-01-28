@@ -12,6 +12,18 @@ public class DialControl : MonoBehaviour {
         return position;
     }
 
+    public static float WrappedPosition()
+    {
+        position += Input.GetAxis("Dial");
+        return position % 360;
+    }
+
+    public static float ClampedPosition(float position, float min, float max) {
+        position += Input.GetAxis("Dial");
+        position = Mathf.Clamp(position, min, max);
+        return position;
+    }
+
     // Gets the expected result of a position update without updating
     public static float getPosition() {
       return position + Input.GetAxis("Dial");
