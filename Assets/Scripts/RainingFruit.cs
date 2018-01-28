@@ -10,6 +10,8 @@ public class RainingFruit : MonoBehaviour {
 
     public GameObject[] slicedFruits;
 
+    [Space]
+
     public float numberOfFruit = 10;
 
     public Transform[] spawnPoints;
