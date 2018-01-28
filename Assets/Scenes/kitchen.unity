@@ -113,6 +113,60 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &306388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 306389}
+  - component: {fileID: 306390}
+  m_Layer: 0
+  m_Name: Food Object (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &306389
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.12, y: -3.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &306390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &51224724
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +195,114 @@ Transform:
   m_Father: {fileID: 1278343529}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &69066861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 69066862}
+  - component: {fileID: 69066863}
+  m_Layer: 0
+  m_Name: Food Object (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69066862
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 69066861}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.96, y: -2.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &69066863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 69066861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
+--- !u!1 &122196461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 122196462}
+  - component: {fileID: 122196463}
+  m_Layer: 0
+  m_Name: Food Object (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &122196462
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 122196461}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.82, y: -2.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122196463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 122196461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &297837863
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,61 +384,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &387780864
+--- !u!1 &349301222
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 387780866}
-  - component: {fileID: 387780867}
+  - component: {fileID: 349301223}
   m_Layer: 0
-  m_Name: food object
-  m_TagString: Enemy
-  m_Icon: {fileID: 2800000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  m_Name: Table Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &387780866
+--- !u!4 &349301223
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 387780864}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.83, y: 7.99, z: -5.528539}
+  m_GameObject: {fileID: 349301222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1291335755}
+  - {fileID: 571469789}
+  - {fileID: 122196462}
+  - {fileID: 765690017}
+  - {fileID: 69066862}
+  - {fileID: 306389}
+  - {fileID: 1810375997}
+  - {fileID: 2095755178}
+  - {fileID: 806785385}
+  - {fileID: 907785111}
   m_Father: {fileID: 1732891521}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &387780867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 387780864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruits:
-  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
-  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
-  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
-  slicedFruitsSprites:
-  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
-  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
-  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
-  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
-  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
-  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
-  slicedFruits: []
-  lockedPosition: 0
-  lockedSlices: 0
-  layer: 10
 --- !u!1 &475633967
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +450,60 @@ Transform:
   m_Father: {fileID: 1278343529}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &571469788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 571469789}
+  - component: {fileID: 571469790}
+  m_Layer: 0
+  m_Name: Food Object (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &571469789
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571469788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.74, y: -3.23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &571469790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571469788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &576119990
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,41 +616,41 @@ Transform:
   m_Father: {fileID: 1278343529}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &923742610
+--- !u!1 &765690016
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 923742611}
-  - component: {fileID: 923742612}
+  - component: {fileID: 765690017}
+  - component: {fileID: 765690018}
   m_Layer: 0
-  m_Name: food object (2)
-  m_TagString: Enemy
-  m_Icon: {fileID: 2800000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  m_Name: Food Object (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &923742611
+--- !u!4 &765690017
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 923742610}
+  m_GameObject: {fileID: 765690016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.62, y: 7.92, z: -5.528539}
+  m_LocalPosition: {x: -5.75, y: -3.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1732891521}
-  m_RootOrder: 2
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &923742612
+--- !u!114 &765690018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 923742610}
+  m_GameObject: {fileID: 765690016}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
@@ -462,16 +661,123 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
   - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
   slicedFruitsSprites:
-  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
   - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
   - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
   - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
-  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
   - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
-  slicedFruits: []
-  lockedPosition: 0
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
   lockedSlices: 0
-  layer: 10
+  layer: 20
+--- !u!1 &806785384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 806785385}
+  - component: {fileID: 806785386}
+  m_Layer: 0
+  m_Name: Food Object (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806785385
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806785384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.31, y: -3.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806785386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806785384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
+--- !u!1 &907785110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 907785111}
+  - component: {fileID: 907785112}
+  m_Layer: 0
+  m_Name: Food Object (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &907785111
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907785110}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.32, y: -3.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &907785112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907785110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &1058727732
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +804,7 @@ Transform:
   m_GameObject: {fileID: 1058727732}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.8, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children: []
   m_Father: {fileID: 1697955389}
   m_RootOrder: 0
@@ -640,61 +946,6 @@ Transform:
   m_Father: {fileID: 1278343529}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1239183610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1239183611}
-  - component: {fileID: 1239183612}
-  m_Layer: 0
-  m_Name: food object (1)
-  m_TagString: Enemy
-  m_Icon: {fileID: 2800000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1239183611
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1239183610}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.39, y: 6.68, z: -5.528539}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1732891521}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1239183612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1239183610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruits:
-  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
-  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
-  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
-  slicedFruitsSprites:
-  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
-  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
-  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
-  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
-  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
-  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
-  slicedFruits: []
-  lockedPosition: 0
-  lockedSlices: 0
-  layer: 10
 --- !u!1 &1278343528
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +983,7 @@ Transform:
   - {fileID: 666385490}
   - {fileID: 1145970811}
   m_Father: {fileID: 1732891521}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1278343530
 MonoBehaviour:
@@ -745,6 +996,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 045c696ef2e0e3848a3937eb74bf4921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
   numberOfFruit: 10
   spawnPoints:
   - {fileID: 576119991}
@@ -757,7 +1019,61 @@ MonoBehaviour:
   - {fileID: 1200079572}
   - {fileID: 666385490}
   - {fileID: 1145970811}
-  timeBetweenSpawn: 3
+  timeBetweenSpawn: 0.5
+--- !u!1 &1291335754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1291335755}
+  - component: {fileID: 1291335756}
+  m_Layer: 0
+  m_Name: Food Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291335755
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291335754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.6, y: -2.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291335756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291335754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &1398144215
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +1147,118 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1645887132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1645887133}
+  - component: {fileID: 1645887136}
+  - component: {fileID: 1645887135}
+  - component: {fileID: 1645887134}
+  m_Layer: 0
+  m_Name: gordonramsey_arm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645887133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645887132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.75, y: -0.099999905, z: 0}
+  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074074894}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1645887134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645887132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c527684997c51514b8f2bb0487cadb1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killCount: 0
+--- !u!61 &1645887135
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645887132}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.5, y: -0.2}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.14, y: 2.05}
+    newSize: {x: 9.14, y: 2.05}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1645887136
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645887132}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: e87cff3c5b0686744853357e18a4ffcf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 9.14, y: 2.05}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1697955388
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,79 +1307,6 @@ MonoBehaviour:
   limitRotation: 0
   maxRotation: 0
   minRotation: 0
---- !u!1 &1704755326
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1704755327}
-  - component: {fileID: 1704755328}
-  m_Layer: 0
-  m_Name: gordonramsey_arm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1704755327
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1704755326}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.8, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2074074894}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1704755328
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1704755326}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: e87cff3c5b0686744853357e18a4ffcf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9.14, y: 2.05}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1732891520
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,10 +1332,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 387780866}
-  - {fileID: 1239183611}
-  - {fileID: 923742611}
   - {fileID: 1278343529}
+  - {fileID: 349301223}
   m_Father: {fileID: 2136087032}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1180,6 +1533,60 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1810375996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1810375997}
+  - component: {fileID: 1810375998}
+  m_Layer: 0
+  m_Name: Food Object (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1810375997
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810375996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.2, y: -3.34, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810375998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810375996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &1867906354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1649,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4ccc0c7cac474d743902ec31c5cc09dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1335,7 +1742,7 @@ Transform:
   m_LocalPosition: {x: 1.01, y: 2.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1704755327}
+  - {fileID: 1645887133}
   m_Father: {fileID: 1790390495}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1357,6 +1764,60 @@ MonoBehaviour:
   limitRotation: 0
   maxRotation: 0
   minRotation: 0
+--- !u!1 &2095755177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2095755178}
+  - component: {fileID: 2095755179}
+  m_Layer: 0
+  m_Name: Food Object (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2095755178
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095755177}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.99, y: -2.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349301223}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2095755179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095755177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23771d9632a7381418ac795c5cb4dd6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 21300000, guid: 5f096e88357b7d6469e394b31de6bd8d, type: 3}
+  - {fileID: 21300000, guid: 2360847af11e0e24cb9aa3dfe480ba39, type: 3}
+  - {fileID: 21300000, guid: ebd8c72c4490d8042a712c885fd8df50, type: 3}
+  slicedFruitsSprites:
+  - {fileID: 21300000, guid: eb19db5be9075864c94d125a249c0502, type: 3}
+  - {fileID: 21300000, guid: d3cf507c92723244e99bcc70741fc280, type: 3}
+  - {fileID: 21300000, guid: 0a923f20923fd35409c7276027684c94, type: 3}
+  - {fileID: 21300000, guid: 24d82ff6004e41c419b6771f668bf573, type: 3}
+  - {fileID: 21300000, guid: df62e8ce8725bd04ea0e902ed6970d18, type: 3}
+  - {fileID: 21300000, guid: 74b7add0ea1b9c34caac5710ef931c3c, type: 3}
+  lockedPosition: 1
+  lockedSlices: 0
+  layer: 20
 --- !u!1 &2136087031
 GameObject:
   m_ObjectHideFlags: 0
