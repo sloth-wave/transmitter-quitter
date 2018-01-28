@@ -5,11 +5,16 @@ using UnityEngine;
 public class DialControl : MonoBehaviour {
 
     static float position = 0;
-    //Converts the controller X Y position to a position in degrees
 
+    // Converts the controller X Y position to a position in degrees
     public static float Position() {
         position += Input.GetAxis("Dial");
         return position;
+    }
+
+    // Gets the expected result of a position update without updating
+    public static float getPosition() {
+      return position + Input.GetAxis("Dial");
     }
 
     private static float lastPos = 0;
