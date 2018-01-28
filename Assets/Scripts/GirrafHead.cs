@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class GirrafHead : MonoBehaviour {
 
-  public DestroyOnTouch apples;
-  public Text winText;
-  public Text counterText;
-  
+  	public DestroyOnTouch apples;
+  	public Text winText;
+	public Text counterText;
+  	public Text timerText;
+
+	private float time;
+	private float startTime;
+	private float totalTime;
+
 
 	void Start()
 	{
