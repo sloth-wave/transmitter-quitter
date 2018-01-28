@@ -5,6 +5,6 @@ using UnityEngine;
 public class TV : MonoBehaviour {
 
 	void Start () {
-        dontDestroyOnLoad(this.gameobject);		
+        DontDestroyOnLoad(this.gameObject);		
 	}
 }
