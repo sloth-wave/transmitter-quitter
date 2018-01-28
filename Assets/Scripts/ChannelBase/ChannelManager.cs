@@ -5,19 +5,38 @@ using UnityEngine;
 
 public class ChannelManager : MonoBehaviour {
 
+	private static int channelIndex;
 
+
+	public static int GetChannelIndex()
+	{
+		return channelIndex;	
+	}
+
+	public static void DecreaseChannelCount()
+	{
+		channelIndex--;	
+	}
+
+	public static void IncreaseChannelCount()
+	{
+		channelIndex++;
+	}
+		
 	public static void ChangeToNextChannel()
 	{
 		int sceneIndex = SceneManager.GetActiveScene ().buildIndex;
-		sceneIndex++;
-
-		SceneManager.LoadScene(sceneIndex);
-	}
-
-	public static void ChangeToSceneByIndex(int sceneIndex)
-	{
+		if (sceneIndex++ > SceneManager.sceneCountInBuildSettings) {
+			sceneIndex = 1;
+		} else {
+			sceneIndex++;
+		}
 		SceneManager.LoadScene (sceneIndex);
 	}
 
-
+	public static void StartOver()
+	{
+		channelIndex = 0;
+		SceneManager.LoadScene (0);
+	}
 }
