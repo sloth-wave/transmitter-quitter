@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class RainingFruit : MonoBehaviour {
 
+    public Sprite[] fruits;
+
+    public Sprite[] slicedFruitsSprites;
+
+    public GameObject[] slicedFruits;
+
     public float numberOfFruit = 10;
 
     public Transform[] spawnPoints;
@@ -17,6 +23,10 @@ public class RainingFruit : MonoBehaviour {
             GameObject go = new GameObject();
             go.transform.position = spawnPoints[Mathf.RoundToInt(Random.Range(0, spawnPoints.Length))].transform.position;
             FruitBehaviour fruit = go.AddComponent<FruitBehaviour>();
+            fruit.fruits = fruits;
+            fruit.slicedFruitsSprites = slicedFruitsSprites;
+            fruit.slicedFruits = slicedFruits;
+
             timer = timeBetweenSpawn;
         }
 
