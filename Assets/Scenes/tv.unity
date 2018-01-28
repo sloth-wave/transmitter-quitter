@@ -946,8 +946,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 3
+  sensitivity: 1
   speed: 6
+  offsetPos: -3
+  position: 0
   limitRotation: 1
   maxRotation: 88
   minRotation: -89
@@ -997,8 +999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 2
+  sensitivity: 1
   speed: 6
+  offsetPos: 3
+  position: 0
   limitRotation: 1
   maxRotation: 88
   minRotation: -89
@@ -1561,6 +1565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivity: 0.5
   speed: 6
+  offsetPos: 0
+  position: 0
   limitRotation: 0
   maxRotation: 0
   minRotation: 0
