@@ -5,19 +5,27 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
 
+    Sprite normal, shot;
+    public float animTime = 1;
+    float timer = 0;
+
+    SpriteRenderer sr;
+    void Start() {
+        sr = this.gameObject.getComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         if (DialControl.GetButtonDown())
         {
-            RaycastHit2D[] hit = Physics2D.RaycastAll(this.transform.position, this.transform.up);
-            for (int i = 0; i < hit.Length; i++)
-            {
-                if (hit[i].transform.tag == "Enemy")
-                {
-                    Destroy(hit[i].transform.gameObject, 0);
-                    return;
-                }
-            }
+            sr.sprite = shot;
+            timer = animTime;
         }
+
+        if (timer < 0) {
+            sr.sprite = normal;
+        }
+
+        timer -= Time.deltaTime;
     }
 }

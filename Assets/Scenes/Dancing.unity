@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158080394}
   - component: {fileID: 158080393}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: sickMoves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253580762}
   - component: {fileID: 253580763}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-really
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 6
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 0.44117647, g: 0.745639, b: 1, a: 1}
   m_FlipX: 0
@@ -720,7 +724,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -793,9 +797,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
+=======
+  m_SortingLayerID: 71544935
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: 14de29bdb35bbeb4f887c3e65590c769, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -866,9 +876,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
+=======
+  m_SortingLayerID: 71544935
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: 808bca26220cb754296c57b516b0ef75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1297,7 +1313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300406611}
   - component: {fileID: 1300406612}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-getit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1451,7 +1467,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 6
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1574,7 +1594,7 @@ GameObject:
   - component: {fileID: 1512316603}
   - component: {fileID: 1512316605}
   - component: {fileID: 1512316606}
-  m_Layer: 9
+  m_Layer: 5
   m_Name: arrow-down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1652,7 +1672,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 6
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1785,7 +1809,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 6
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 0.753, g: 0.37159386, b: 0.316, a: 1}
   m_FlipX: 0

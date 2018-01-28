@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Enemy
+>>>>>>> a9c34db8c3012786cc400d96882eb414f64f644f
   layers:
   - Default
   - TransparentFX

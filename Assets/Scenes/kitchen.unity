@@ -359,9 +359,9 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: e7c84df0513834e4fa7ed11fee0808a5, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -1019,7 +1019,9 @@ MonoBehaviour:
   - {fileID: 1200079572}
   - {fileID: 666385490}
   - {fileID: 1145970811}
-  timeBetweenSpawn: 0.5
+  timeBetweenSpawn: 2
+  timer: 0
+  layer: 50
 --- !u!1 &1291335754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398144216}
   - component: {fileID: 1398144217}
+  - component: {fileID: 1398144218}
   m_Layer: 0
   m_Name: gordonramsey_counter
   m_TagString: Untagged
@@ -1147,6 +1150,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1398144218
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398144215}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -3.5391507}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13, y: 8.5}
+    newSize: {x: 13, y: 8.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 13, y: 1.4216986}
+  m_EdgeRadius: 0
 --- !u!1 &1645887132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1201,7 @@ Transform:
   m_GameObject: {fileID: 1645887132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.75, y: -0.099999905, z: 0}
-  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2074074894}
   m_RootOrder: 0
@@ -1300,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 5
+  sensitivity: 6
   speed: 6
   offsetPos: 0
   position: 0
@@ -1757,7 +1785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: -5
+  sensitivity: -7
   speed: 6
   offsetPos: 0
   position: 0
@@ -1840,8 +1868,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2136087031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55970806, y: -0.2947818, z: 5.528539}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.33382, y: -0.18549, z: 5.528539}
+  m_LocalScale: {x: 0.5999997, y: 0.9164063, z: 1}
   m_Children:
   - {fileID: 1867906355}
   - {fileID: 1398144216}
