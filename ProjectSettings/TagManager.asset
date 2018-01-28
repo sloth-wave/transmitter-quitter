@@ -16,14 +16,14 @@ TagManager:
   - 
   - 
   - 
+  - subject
   - 
   - 
   - 
   - 
   - 
   - 
-  - 
-  - 
+  - background
   - 
   - 
   - 
@@ -42,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3961295
+    locked: 0
+  - name: subject
+    uniqueID: 71544935
     locked: 0
