@@ -23,7 +23,7 @@ public class FruitBehaviour : MonoBehaviour {
     // Use this for initialization
     void Start() {
         render = this.gameObject.AddComponent<SpriteRenderer>();
-        int fruit = Mathf.RoundToInt(Random.Range(0, fruits.Length - 1));
+        int fruit = Mathf.RoundToInt(Random.Range(0, fruits.Length));
         render.sprite = fruits[fruit];
         render.sortingOrder = layer;
 
