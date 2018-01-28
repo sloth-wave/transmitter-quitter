@@ -6,10 +6,7 @@ using System;
 [Serializable]
 public class Channel : IChannelBase{
 
-	public string channelname;
-
     public void Win() {
-
     }
 
     public void Lose() {

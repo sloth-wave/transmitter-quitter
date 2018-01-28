@@ -10,10 +10,10 @@ public class GirrafHead : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-    checkapples();
+    checkapples(); 
   }
 
-  private void checkapples() { 
+  private void checkapples() {
 
     counterText.text = apples.killCount + " / 12";
 

@@ -16,4 +16,12 @@ public static class JsonHelper {
 
 		return file.text;
 	}
+
+	// Save channel to json
+	public static void SaveResourcesAsJsonFile(Channel channel)
+	{
+		string json = JsonUtility.ToJson(channel);
+
+		Debug.Log (json+"\n");
+	}
 }
