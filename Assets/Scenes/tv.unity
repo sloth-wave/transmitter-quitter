@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 138588482}
   - component: {fileID: 138588481}
   - component: {fileID: 138588480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 138588479}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &138588481
 Behaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 446949911}
   - component: {fileID: 446949910}
   - component: {fileID: 446949909}
+  - component: {fileID: 446949912}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -363,7 +364,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 446949910}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: bd4889c531fe5654e93cd849795aff12, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &446949910
@@ -399,6 +411,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446949907}
+--- !u!114 &446949912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446949907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4889c531fe5654e93cd849795aff12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &737758937
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +432,7 @@ GameObject:
   - component: {fileID: 737758939}
   - component: {fileID: 737758940}
   - component: {fileID: 737758938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: San lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +510,7 @@ GameObject:
   - component: {fileID: 743159119}
   - component: {fileID: 743159118}
   - component: {fileID: 743159122}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +617,7 @@ GameObject:
   - component: {fileID: 879450935}
   - component: {fileID: 879450937}
   - component: {fileID: 879450936}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: TV Overlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,7 +746,7 @@ GameObject:
   - component: {fileID: 1408405553}
   - component: {fileID: 1408405555}
   - component: {fileID: 1408405554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: S.A.T.R.T
+  m_Text: S.T.A.R.T.
 --- !u!222 &1992042092
 CanvasRenderer:
   m_ObjectHideFlags: 0
