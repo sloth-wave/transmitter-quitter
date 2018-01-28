@@ -5,11 +5,12 @@ using UnityEngine;
 public class TVAntenna : MonoBehaviour {
 
     bool antennaInPosition = false;
+    float maxPossAntennaPos, minPossAntennaPos;
 
     float antennaNeededAntennaPosition = 45; //degrees
 
     void Start() {
-        antennaNeededAntennaPosition = Random.Range(-45, 45);
+        antennaNeededAntennaPosition = Random.Range(minPossAntennaPos, maxPossAntennaPos);
     }
 
 	// Update is called once per frame
