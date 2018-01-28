@@ -13,9 +13,9 @@ public class RotateGame : MonoBehaviour {
 
 	   // Update is called once per frame
      void Update () {
-        // if(CanRotate()){
+         if(CanRotate()){
           Rotate();
-        // }
+         }
 	   }
 
      // Check if the expected new position of the object is with the set min/max bounds
