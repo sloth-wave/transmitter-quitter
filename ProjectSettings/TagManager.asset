@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Screen
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -15,19 +13,15 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
-  - 
-  - subject
-=======
-  - TV
->>>>>>> d85fb5efc5d5317f1152a8ecbb2303f6882bc888
   - 
   - 
   - 
   - 
   - 
   - 
-  - background
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -46,10 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: background
-    uniqueID: 3961295
-    locked: 0
-  - name: subject
-    uniqueID: 71544935
     locked: 0
