@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158080394}
   - component: {fileID: 158080393}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: sickMoves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,8 +160,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 4b75305bb1aec495ca193b47821b829e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253580762}
   - component: {fileID: 253580763}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-really
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,8 +246,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: d501425b65336bf4e825bf9eef0ba94c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -347,9 +347,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 0.44117647, g: 0.745639, b: 1, a: 1}
   m_FlipX: 0
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 465760145}
   - component: {fileID: 465760146}
   - component: {fileID: 465760147}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,9 +616,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7933fb936bee9724e9ab33c92fc9040f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -720,7 +720,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -742,7 +742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529884365}
   - component: {fileID: 529884366}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-light-blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +794,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 14de29bdb35bbeb4f887c3e65590c769, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -815,7 +815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 681315495}
   - component: {fileID: 681315496}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-light-yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 808bca26220cb754296c57b516b0ef75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 804396980}
   - component: {fileID: 804396981}
   - component: {fileID: 804396982}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-arm-right
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -941,9 +941,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6288b95264c6a29488bfcaf817b3c60f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -966,6 +966,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 2
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
 --- !u!61 &804396982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1269,8 +1275,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: c9b6a0797955047d3b9386dd1e16848b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1291,7 +1297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300406611}
   - component: {fileID: 1300406612}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-getit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1342,8 +1348,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 6daf497b4abd97842aae7076f67d0c9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1443,9 +1449,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1498,7 +1504,7 @@ GameObject:
   - component: {fileID: 1484021456}
   - component: {fileID: 1484021458}
   - component: {fileID: 1484021457}
-  m_Layer: 16
+  m_Layer: 0
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1568,7 +1574,7 @@ GameObject:
   - component: {fileID: 1512316603}
   - component: {fileID: 1512316605}
   - component: {fileID: 1512316606}
-  m_Layer: 9
+  m_Layer: 5
   m_Name: arrow-down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,9 +1650,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1777,9 +1783,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fa93298aab29c994491c8753f224277d, type: 3}
   m_Color: {r: 0.753, g: 0.37159386, b: 0.316, a: 1}
   m_FlipX: 0
@@ -1834,7 +1840,7 @@ GameObject:
   - component: {fileID: 1964371206}
   - component: {fileID: 1964371208}
   - component: {fileID: 1964371207}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: darkScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,8 +1898,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6ff79efd761a047cfa423bc71113b773, type: 3}
   m_Color: {r: 0.46274513, g: 0.6745098, b: 0.8862746, a: 0.647}
@@ -1960,7 +1966,7 @@ GameObject:
   - component: {fileID: 1998762802}
   - component: {fileID: 1998762803}
   - component: {fileID: 1998762801}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: dancing-arm-left
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2036,9 +2042,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 71544935
-  m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a438a843020213346853c174762f692a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2061,3 +2067,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 2
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
