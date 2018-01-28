@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Screen
   - Enemy
   layers:
   - Default
@@ -15,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - TV
+  - 
   - 
   - 
   - 
