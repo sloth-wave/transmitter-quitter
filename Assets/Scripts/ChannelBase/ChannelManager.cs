@@ -26,8 +26,9 @@ public class ChannelManager : MonoBehaviour {
 	public static void ChangeToNextChannel()
 	{
 		int sceneIndex = SceneManager.GetActiveScene ().buildIndex;
-		if (sceneIndex++ > SceneManager.sceneCountInBuildSettings) {
+		if (sceneIndex+1 > SceneManager.sceneCountInBuildSettings) {
 			sceneIndex = 1;
+			channelIndex = 1;
 		} else {
 			sceneIndex++;
 		}
