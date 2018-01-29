@@ -6,8 +6,7 @@ public class Bullet : MonoBehaviour {
 
     [SerializeField]
     float _speed = 10.0f;
-    [SerializeField]
-    GameObject explopsion;
+
 
 	// Use this for initialization
 	void Start () {

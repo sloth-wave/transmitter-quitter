@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class ShootOutBadGuy : MonoBehaviour {
 
-    //[SerializeField]
-    //GameObject enemyPrefab;
-
-    //[SerializeField]
-    //GameObject spawn1;
-
     [SerializeField]
     GameObject _enemyExplosionPreFab;
 
@@ -17,33 +11,32 @@ public class ShootOutBadGuy : MonoBehaviour {
     private AudioClip DeathSound;
     AudioSource audioSource;
 
+    shotOutSpawnEnemy badguyScript;
 
+  
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        badguyScript = GetComponent<shotOutSpawnEnemy>();
+    }
 
 
 	// Use this for initialization
 	void Start () {
-
-        audioSource = GetComponent<AudioSource>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        
 	}
 
-    //IEnumerator SpawnEnemy()
-    //{
-    //    yield return new WaitForSeconds(1);
-    //    enemyPrefab.transform.position = spawn1.transform.position;
-    //    Instantiate(enemyPrefab);
-
-    //}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        audioSource.PlayOneShot(DeathSound, 0.7F);
-            Destroy(this.gameObject);
+        audioSource.PlayOneShot(DeathSound);
+        badguyScript.AllShot();
+        Instantiate(_enemyExplosionPreFab, this.transform.position, Quaternion.identity);
+        this.gameObject.SetActive(false);
 
 
     }
+
+
 }

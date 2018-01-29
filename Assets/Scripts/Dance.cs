@@ -29,7 +29,7 @@ public class Dance : MonoBehaviour {
     private int arrowCount;
 
     AudioSource audioSource;
-    //public GameObject lights;
+ 
 
 
 
@@ -45,7 +45,6 @@ public class Dance : MonoBehaviour {
         
 
         StartCoroutine(DDRscreen());
-        SetActiveArrow();
         arrowCount = 0;
 		
 	}
@@ -75,6 +74,7 @@ public class Dance : MonoBehaviour {
         }
     }
 
+
     public void Hit(){
         HideArrows();
         audioSource.PlayOneShot(getItGurlSound, 0.7F);
@@ -98,15 +98,11 @@ public class Dance : MonoBehaviour {
     IEnumerator DDRscreen(){
         startScreen.SetActive(true);
         audioSource.PlayOneShot(reallySound, 0.7F);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.6f);
         startScreen.SetActive(false);
-        //StartCoroutine(SwitchToNextFromDance());
-    }
+        SetActiveArrow();
 
-    //IEnumerator SwitchToNextFromDance(){
-    //    yield return new WaitForSeconds(2f);
-    //    ChannelManager.ChangeToNextChannel();
-    //}
+    }
 
 
 }

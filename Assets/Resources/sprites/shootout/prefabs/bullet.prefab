@@ -80,7 +80,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  explopsion: {fileID: 1633715819396424, guid: cd5b396ca056f4d27b86ff11732dfdb2, type: 2}
 --- !u!114 &114705161293225094
 MonoBehaviour:
   m_ObjectHideFlags: 1
