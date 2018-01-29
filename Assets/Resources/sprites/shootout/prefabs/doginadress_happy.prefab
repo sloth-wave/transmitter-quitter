@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4385354116264126}
   - component: {fileID: 212307560796455196}
   - component: {fileID: 114740427721551062}
+  - component: {fileID: 114138210549508544}
+  - component: {fileID: 50296199773269126}
   m_Layer: 0
   m_Name: doginadress_happy
   m_TagString: Untagged
@@ -35,12 +37,45 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1973369398465782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.12, y: -0.85, z: 0}
+  m_LocalPosition: {x: 0.70000076, y: -0.84000015, z: 8.680899}
   m_LocalScale: {x: 0.6202148, y: 0.6202148, z: 0.6202148}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50296199773269126
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973369398465782}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &114138210549508544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973369398465782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083938f4d70344dd9b5ece15e1954c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyExplosionPreFab: {fileID: 1306848173406738, guid: a73372c94a15c489ba0cb9f47e6ae456,
+    type: 2}
 --- !u!114 &114740427721551062
 MonoBehaviour:
   m_ObjectHideFlags: 1
