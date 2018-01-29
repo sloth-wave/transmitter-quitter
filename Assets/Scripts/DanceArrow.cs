@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class DanceArrow : MonoBehaviour {
 
-    public Dance dance;
+    Dance dance;
 
     public void OnTriggerEnter2D (Collider2D other)
     {
         dance.GetComponent<Dance>();
         dance.Hit();
+        print("I got hit " + name);
     }
 }
