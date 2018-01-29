@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,13 +13,8 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
   - TV
   - 
-=======
-  - arm left
-  - arm right
->>>>>>> d9c6df675cc1fa43e46b3a6460c4b5b8e197c88f
   - 
   - 
   - 

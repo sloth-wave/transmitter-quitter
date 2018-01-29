@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/weatherman.unity
     guid: b8de8eff440fd5846b3d5ee7a2e32e90
+  - enabled: 1
+    path: Assets/Scenes/Dancing.unity
+    guid: f00712e5926ef418d9c0870363e82509
