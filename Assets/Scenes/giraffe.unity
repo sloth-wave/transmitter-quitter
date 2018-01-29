@@ -232,7 +232,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -282,7 +282,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -496,7 +496,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -630,7 +630,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -881,7 +881,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Win!!
+  m_Text: YUM
 --- !u!222 &705969791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -1722,7 +1722,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -1903,7 +1903,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
@@ -2316,7 +2316,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   - {fileID: 21300000, guid: cd0a330c511e4a44d86c051d2d2fc016, type: 3}
   lockedPosition: 1
-  lockedSlices: 1
+  lockedSlices: 0
   layer: -8
   cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
   audioSource: {fileID: 1853219830}
