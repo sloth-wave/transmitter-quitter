@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ShootOutBadGuy : MonoBehaviour {
 
     [SerializeField]
     GameObject _enemyExplosionPreFab;
 
-    [SerializeField]
-    private AudioClip DeathSound;
-    AudioSource audioSource;
 
-    shotOutSpawnEnemy badguyScript;
+
+    SOutManager soutManager;
 
   
 
     private void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
-        badguyScript = GetComponent<shotOutSpawnEnemy>();
+        
+
+        soutManager = FindObjectOfType<SOutManager>();
     }
 
 
@@ -30,13 +30,12 @@ public class ShootOutBadGuy : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        audioSource.PlayOneShot(DeathSound);
-        badguyScript.AllShot();
+        soutManager.PlaySoundGuy();
         Instantiate(_enemyExplosionPreFab, this.transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
 
-
     }
+
 
 
 }

@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shotOutSpawnEnemy : MonoBehaviour {
+public class SOutManager : MonoBehaviour {
 
-    //badly named class should be a ManagerClass... whyyyyy did I not only misspell it I also badly named it
 
     [SerializeField]
     GameObject enemyPrefab;
@@ -19,6 +18,19 @@ public class shotOutSpawnEnemy : MonoBehaviour {
     GameObject dogInDress;
 
     public int numberShot;
+
+    //sounds
+    [SerializeField]
+    private AudioClip DeathSoundGuy;
+    [SerializeField]
+    private AudioClip DeathSoundDog;
+
+    AudioSource audioSource;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
 
     // Use this for initialization
@@ -47,8 +59,14 @@ public class shotOutSpawnEnemy : MonoBehaviour {
 
     }
 
-    public void AllShot()
+    public void PlaySoundGuy()
     {
-        numberShot++;
+        audioSource.PlayOneShot(DeathSoundGuy);
     }
+
+    public void PlaySoundDog()
+    {
+        audioSource.PlayOneShot(DeathSoundDog);
+    }
+
 }

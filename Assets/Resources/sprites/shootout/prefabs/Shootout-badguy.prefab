@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212224959223518472}
   - component: {fileID: 61856698735082328}
   - component: {fileID: 50084086259474026}
-  - component: {fileID: 114415586516985196}
   - component: {fileID: 82853386568001092}
+  - component: {fileID: 114543350364086864}
   m_Layer: 0
   m_Name: Shootout-badguy
   m_TagString: Enemy
@@ -169,7 +169,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114415586516985196
+--- !u!114 &114543350364086864
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -182,7 +182,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyExplosionPreFab: {fileID: 1633715819396424, guid: cd5b396ca056f4d27b86ff11732dfdb2,
     type: 2}
-  DeathSound: {fileID: 8300000, guid: dd250bfc9573946a3bc5321b5da3f8f4, type: 3}
 --- !u!212 &212224959223518472
 SpriteRenderer:
   m_ObjectHideFlags: 1
