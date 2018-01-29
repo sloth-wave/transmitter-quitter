@@ -167,6 +167,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &51224724
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,6 +251,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &122196461
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +307,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &297837863
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +510,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &576119990
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +678,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &806785384
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +734,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &907785110
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +790,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &1058727732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1036,7 @@ MonoBehaviour:
   timeBetweenSpawn: 2
   timer: 0
   layer: 50
+  sound: {fileID: 8300000, guid: 854e8ce8f9b364c799039e99fe97b84c, type: 3}
 --- !u!1 &1291335754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1091,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 8300000, guid: 854e8ce8f9b364c799039e99fe97b84c, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &1398144215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1632,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &1867906354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1865,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 0
   layer: 20
+  cutFruit: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &2136087031
 GameObject:
   m_ObjectHideFlags: 0
