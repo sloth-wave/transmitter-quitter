@@ -2,8 +2,8 @@
 
 A game created during Global Game Jam 2018 by team Sloth Wave.
 
-- (Global Game Jam 2018 submission page][https://globalgamejam.org/2018/games/transmitter-quitter]
-- (Website (coming soon))[slothwave.com]
+- **Global Game Jam 2018 submission page:** https://globalgamejam.org/2018/games/transmitter-quitter
+- **Website (coming soon):** http://slothwave.com
 
 # Screenshots
 ![Title Screen](https://raw.githubusercontent.com/sloth-wave/transmitter-quitter/master/Assets/Resources/sprites/screenshots/title_Screen.png)
