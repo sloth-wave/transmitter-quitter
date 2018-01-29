@@ -11,11 +11,7 @@ public class Shooter : MonoBehaviour
 
     SpriteRenderer sr;
     void Start() {
-<<<<<<< HEAD
-        // sr = this.gameObject.getComponent<SpriteRenderer>();
-=======
         sr = this.gameObject.GetComponent<SpriteRenderer>();
->>>>>>> 6dadaeb7d10cc281f770c11e022cbf77fffdba24
     }
 
     void Update()
