@@ -30,9 +30,10 @@ public class shotOutSpawnEnemy : MonoBehaviour {
 
     IEnumerator SpawnEnemy()
     {
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.2f);
         enemyPrefab.transform.position = spawn1.transform.position;
         Instantiate(enemyPrefab);
+        yield return new WaitForSeconds(.3f);
         dogInDress.transform.position = spawn2.transform.position;
         Instantiate(dogInDress);
 
