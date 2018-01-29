@@ -1110,6 +1110,16 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114032307844009252, guid: f60c4261b0a0f784eb9c6085ca43fedb,
+        type: 2}
+      propertyPath: disable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114032307844009252, guid: f60c4261b0a0f784eb9c6085ca43fedb,
+        type: 2}
+      propertyPath: totalTime
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f60c4261b0a0f784eb9c6085ca43fedb, type: 2}
   m_IsPrefabParent: 0
