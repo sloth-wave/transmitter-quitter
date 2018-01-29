@@ -27,7 +27,7 @@ public class ChannelManager : MonoBehaviour {
 	{
 		int sceneIndex = SceneManager.GetActiveScene ().buildIndex;
 
-		if (sceneIndex+1 > SceneManager.sceneCountInBuildSettings) {
+		if (sceneIndex+1 >= SceneManager.sceneCountInBuildSettings) {
 			sceneIndex = 1;
 			channelIndex = 1;
 			SceneManager.LoadScene (sceneIndex);

@@ -155,6 +155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
 --- !u!1 &77133699
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,8 +888,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1062663484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.3932, y: 0.053169, z: -0.00030017}
+  m_LocalScale: {x: 0.83844477, y: 0.9819549, z: 0.99}
   m_Children:
   - {fileID: 1350789437}
   - {fileID: 1849227649}
@@ -1007,6 +1013,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
 --- !u!1 &1350789436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,10 +1335,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 11c3b9651e5bfbe4e8a5772ad26c1c82, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 59333235104bd4ac6b3a618c5f68fd26, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 3
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -1525,7 +1537,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: e7c84df0513834e4fa7ed11fee0808a5, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
