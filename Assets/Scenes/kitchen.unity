@@ -955,7 +955,12 @@ MonoBehaviour:
   timeBetweenSpawn: 2
   timer: 0
   layer: 50
-  sound: {fileID: 8300000, guid: 854e8ce8f9b364c799039e99fe97b84c, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 643626da37274423fac8490fa1f98659, type: 3}
+  - {fileID: 8300000, guid: 854e8ce8f9b364c799039e99fe97b84c, type: 3}
+  - {fileID: 8300000, guid: 644d01fd5324941c082096ee2af95e48, type: 3}
+  - {fileID: 8300000, guid: 9712446e272834a6694a5df3296be6ab, type: 3}
+  - {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
 --- !u!1 &1291335754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1717,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
