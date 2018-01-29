@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-
+    [SerializeField]
     Sprite normal, shot;
     public float animTime = 1;
     float timer = 0;
