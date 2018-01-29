@@ -155,6 +155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
 --- !u!1 &77133699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1013,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
+  speed: 6
+  offsetPos: 0
+  position: 0
+  limitRotation: 0
+  maxRotation: 0
+  minRotation: 0
 --- !u!1 &1350789436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,7 +1335,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 11c3b9651e5bfbe4e8a5772ad26c1c82, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 59333235104bd4ac6b3a618c5f68fd26, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
