@@ -19,7 +19,14 @@ public class RainingFruit : MonoBehaviour {
 
     public int layer = 0;
 
+    public AudioClip sound;
+    AudioSource source;
 	// Update is called once per frame
+    void Start(){
+      source = this.gameObject.AddComponent<AudioSource>();
+
+    }
+
 	void Update () {
         if(timer > timeBetweenSpawn || timer >= 0.2){
           GameObject go = new GameObject();
@@ -29,6 +36,8 @@ public class RainingFruit : MonoBehaviour {
           fruit.slicedFruitsSprites = slicedFruitsSprites;
           fruit.layer = layer;
           timer = 0;
+          fruit.audioSource = source;
+          fruit.cutFruit = sound; 
         }
 
         timeBetweenSpawn -= Time.deltaTime / 10;

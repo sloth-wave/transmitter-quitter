@@ -15,10 +15,15 @@ public class FruitBehaviour : MonoBehaviour {
 
     public int layer = 0;
 
+    [SerializeField]
+    public AudioClip cutFruit;
+
     CircleCollider2D collider;
 
     SpriteRenderer render;
     Rigidbody2D rigid;
+
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -46,6 +51,7 @@ public class FruitBehaviour : MonoBehaviour {
             slicedFruits[i].gameObject.AddComponent<SpriteRenderer>().sprite = slicedFruitsSprites[2 * fruit + i];
             slicedFruits[i].AddComponent<Rigidbody2D>();
             slicedFruits[i].SetActive(false);
+
         }
 
 	}
@@ -60,6 +66,8 @@ public class FruitBehaviour : MonoBehaviour {
             slicedFruits[i].transform.parent = null;
             slicedFruits[i].SetActive(true);
             slicedFruits[i].gameObject.GetComponent<SpriteRenderer>().sortingOrder = layer;
+
+            audioSource.PlayOneShot(cutFruit, 0.7F);
 
             if (lockedSlices) {
                 slicedFruits[i].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
