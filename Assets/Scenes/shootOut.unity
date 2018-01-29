@@ -757,6 +757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyExplosionPreFab: {fileID: 1306848173406738, guid: a73372c94a15c489ba0cb9f47e6ae456,
     type: 2}
+  DeathSound: {fileID: 8300000, guid: 6baefa3b143544648bb32d17483abb8d, type: 3}
 --- !u!114 &1630405185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,6 +809,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114415586516985196, guid: 9de67eb6a63b842efbad20c454ae095c,
+        type: 2}
+      propertyPath: DeathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dd250bfc9573946a3bc5321b5da3f8f4, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9de67eb6a63b842efbad20c454ae095c, type: 2}
   m_IsPrefabParent: 0

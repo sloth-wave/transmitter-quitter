@@ -13,13 +13,17 @@ public class ShootOutBadGuy : MonoBehaviour {
     [SerializeField]
     GameObject _enemyExplosionPreFab;
 
+    [SerializeField]
+    private AudioClip DeathSound;
+    AudioSource audioSource;
+
 
 
 
 	// Use this for initialization
 	void Start () {
 
-        //StartCoroutine(SpawnEnemy());
+        audioSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -37,7 +41,7 @@ public class ShootOutBadGuy : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
+        audioSource.PlayOneShot(DeathSound, 0.7F);
             Destroy(this.gameObject);
 
 
