@@ -15,11 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/kitchen.unity
     guid: bbff715a4bf31b648a001554b019d1ad
   - enabled: 1
-<<<<<<< HEAD
-=======
-    path: Assets/Scenes/weatherman.unity
-    guid: b8de8eff440fd5846b3d5ee7a2e32e90
-  - enabled: 1
->>>>>>> 6ac8bc62f9e9122769021d9abb57412621e9418e
     path: Assets/Scenes/Dancing.unity
     guid: f00712e5926ef418d9c0870363e82509
