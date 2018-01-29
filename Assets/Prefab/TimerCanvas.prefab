@@ -80,7 +80,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e772116444da440b796fb3c8c9fa18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalTime: 25
   timeText: {fileID: 114846248346949920}
+  disable: 1
 --- !u!114 &114098054655667528
 MonoBehaviour:
   m_ObjectHideFlags: 1
