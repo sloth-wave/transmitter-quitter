@@ -10,11 +10,6 @@ public class GirrafHead : MonoBehaviour {
 	public Text counterText;
   	public Text timerText;
 
-	private float time;
-	private float startTime;
-	private float totalTime;
-
-
 	void Start()
 	{
 		winText.gameObject.SetActive (false);

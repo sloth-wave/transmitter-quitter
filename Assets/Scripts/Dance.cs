@@ -109,6 +109,7 @@ public class Dance : MonoBehaviour {
 
     IEnumerator SwitchToNextFromDance(){
         yield return new WaitForSeconds(2f);
+        ChannelManager.ChangeToNextChannel();
     }
 
 
