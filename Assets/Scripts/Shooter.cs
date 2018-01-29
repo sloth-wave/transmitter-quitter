@@ -11,7 +11,7 @@ public class Shooter : MonoBehaviour
 
     SpriteRenderer sr;
     void Start() {
-        sr = this.gameObject.getComponent<SpriteRenderer>();
+        // sr = this.gameObject.getComponent<SpriteRenderer>();
     }
 
     void Update()
