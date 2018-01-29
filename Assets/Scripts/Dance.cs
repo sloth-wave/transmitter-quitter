@@ -29,11 +29,7 @@ public class Dance : MonoBehaviour {
     private int arrowCount;
 
     AudioSource audioSource;
-    public GameObject lights;
-
-
-
-
+    //public GameObject lights;
 
 
 
@@ -104,13 +100,13 @@ public class Dance : MonoBehaviour {
         audioSource.PlayOneShot(reallySound, 0.7F);
         yield return new WaitForSeconds(1f);
         startScreen.SetActive(false);
-        StartCoroutine(SwitchToNextFromDance());
+        //StartCoroutine(SwitchToNextFromDance());
     }
 
-    IEnumerator SwitchToNextFromDance(){
-        yield return new WaitForSeconds(2f);
-        ChannelManager.ChangeToNextChannel();
-    }
+    //IEnumerator SwitchToNextFromDance(){
+    //    yield return new WaitForSeconds(2f);
+    //    ChannelManager.ChangeToNextChannel();
+    //}
 
 
 }

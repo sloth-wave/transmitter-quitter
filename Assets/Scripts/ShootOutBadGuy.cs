@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class ShootOutBadGuy : MonoBehaviour {
 
-    [SerializeField]
-    GameObject enemyPrefab;
+    //[SerializeField]
+    //GameObject enemyPrefab;
+
+    //[SerializeField]
+    //GameObject spawn1;
 
     [SerializeField]
-    GameObject spawn1;
+    GameObject _enemyExplosionPreFab;
 
-    [SerializeField]
-    GameObject spawn2;
+
 
 
 	// Use this for initialization
 	void Start () {
 
-        StartCoroutine(SpawnEnemy());
+        //StartCoroutine(SpawnEnemy());
 	}
 	
 	// Update is called once per frame
@@ -25,11 +27,19 @@ public class ShootOutBadGuy : MonoBehaviour {
 		
 	}
 
-    IEnumerator SpawnEnemy()
+    //IEnumerator SpawnEnemy()
+    //{
+    //    yield return new WaitForSeconds(1);
+    //    enemyPrefab.transform.position = spawn1.transform.position;
+    //    Instantiate(enemyPrefab);
+
+    //}
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        yield return new WaitForSeconds(5);
-        enemyPrefab.transform.position = spawn1.transform.position;
-        Instantiate(enemyPrefab);
+
+            Destroy(this.gameObject);
+
 
     }
 }

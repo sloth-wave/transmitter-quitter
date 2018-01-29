@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class DanceArrow : MonoBehaviour {
 
-    public Dance dance;
+    Dance dance;
+
+    public void Awake()
+    {
+        dance = FindObjectOfType<Dance>();
+    }
 
     public void OnTriggerEnter2D (Collider2D other)
     {
