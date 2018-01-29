@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class TVAntenna : MonoBehaviour {
 
-    bool antennaInPosition = false;
-    float maxPossAntennaPos, minPossAntennaPos;
-    float sensitivity = 1f;
+    public Animator anim;
 
-    bool clampPosition = false; 
+    public bool antennaInPosition = false;
+    public float maxPossAntennaPos, minPossAntennaPos;
+    public float sensitivity = 1f;
 
-    float antennaNeededAntennaPosition = 45; //degrees
+    public bool clampPosition = false;
 
-    float position = 0;
+    public float antennaNeededAntennaPosition = 45; //degrees
+
+    public float position = 0;
 
     void Start() {
         antennaNeededAntennaPosition = Random.Range(minPossAntennaPos, maxPossAntennaPos);
@@ -20,16 +22,24 @@ public class TVAntenna : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        position = DialControl.ClampedPosition(position, minPossAntennaPos, maxPossAntennaPos) ;
+
         if (clampPosition){
-            if (DialControl.ClampedPosition(position, minPossAntennaPos, maxPossAntennaPos) > (antennaNeededAntennaPosition + 2) && DialControl.ClampedPosition(position, minPossAntennaPos, maxPossAntennaPos) < (antennaNeededAntennaPosition - 2))
-            {
+            if (position < (antennaNeededAntennaPosition + 2) && position > (antennaNeededAntennaPosition - 2)){
                 antennaInPosition = true;
+                anim.SetTrigger("Pan Down");
             }
         } else {
-            if (DialControl.Position() > (antennaNeededAntennaPosition + 2) && DialControl.Position() < (antennaNeededAntennaPosition - 2)){
+            if (DialControl.Position() < (antennaNeededAntennaPosition + 2) && DialControl.Position() > (antennaNeededAntennaPosition - 2)){
                 antennaInPosition = true;
+                anim.SetTrigger("Pan Down");
             }
         }
-       
+
+
 	}
+
+    public void antennaCheat(){
+      anim.SetTrigger("Pan Down");
+    }
 }
