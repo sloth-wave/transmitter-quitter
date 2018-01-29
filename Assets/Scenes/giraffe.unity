@@ -234,6 +234,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &232075939
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +284,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &264720936
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +498,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &402652903
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +632,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &507089463
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +998,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &778358444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,6 +1048,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &840332107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1098,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &975075265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,6 +1369,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &1159692532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1724,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &1339465969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,6 +1905,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &1853219825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,6 +2117,8 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
 --- !u!1 &1896080864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,3 +2318,5 @@ MonoBehaviour:
   lockedPosition: 1
   lockedSlices: 1
   layer: -8
+  cutFruit: {fileID: 8300000, guid: a0b05310af4a84423a0cf789b8ca7282, type: 3}
+  audioSource: {fileID: 1853219830}
