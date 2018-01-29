@@ -9,6 +9,9 @@ public class Dolphin : MonoBehaviour {
     public GameObject[] beards;
     public GameObject win;
 
+    float time = 5;
+    public float timer = 1;
+
 
 	// Use this for initialization
 	void Start () {
@@ -19,21 +22,36 @@ public class Dolphin : MonoBehaviour {
 	void Update () {
         if (currBeard > beards.Length) {
             win.SetActive(true);
-
             ChannelManager.ChangeToNextChannel();
         }
 
-        if (lastBeard != currBeard) {
-            beards[currBeard].SetActive(true);
-            lastBeard = currBeard;
+        if (time < 0) {
+             
+            if (lastBeard == currBeard)
+            {
+                currBeard++;
+            }
+
+            if ((lastBeard != currBeard))
+            {
+                beards[currBeard].SetActive(true);
+                lastBeard = currBeard;
+            }
+
         }
 
 
+
+        time -= Time.deltaTime;
+
+        
 	}
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         Debug.Log("Collision!!");
-        currBeard++;
+        timer = time;
+        
     }
+
 }
