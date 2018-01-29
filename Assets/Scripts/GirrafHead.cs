@@ -13,6 +13,7 @@ public class GirrafHead : MonoBehaviour {
 	void Start()
 	{
 		winText.gameObject.SetActive (false);
+		DialControl.reset ();
 	}
 
 	// Update is called once per frame
