@@ -872,7 +872,7 @@ MonoBehaviour:
   offsetPos: 0
   position: -30
   limitRotation: 1
-  maxRotation: 88
+  maxRotation: 30
   minRotation: -89
 --- !u!114 &789469338
 MonoBehaviour:
