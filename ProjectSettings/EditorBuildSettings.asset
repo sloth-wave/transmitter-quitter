@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/tv.unity
     guid: 17959f22cbce6c847927dfd35d1d39ee
   - enabled: 1
+    path: Assets/Scenes/spacewizard.unity
+    guid: 61caa7cda163f9b4ab90a774c6a4dcb4
+  - enabled: 1
     path: Assets/Scenes/giraffe.unity
     guid: 77c48cba183410a499b32c3260b0ee77
   - enabled: 1
