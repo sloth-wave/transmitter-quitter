@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/tv.unity
     guid: 17959f22cbce6c847927dfd35d1d39ee
   - enabled: 1
+    path: Assets/Scenes/shootOut.unity
+    guid: 5620388684eac47d8ab025feaca69c11
+  - enabled: 1
     path: Assets/Scenes/spacewizard.unity
     guid: 61caa7cda163f9b4ab90a774c6a4dcb4
+  - enabled: 1
+    path: Assets/Scenes/Dancing.unity
+    guid: f00712e5926ef418d9c0870363e82509
   - enabled: 1
     path: Assets/Scenes/giraffe.unity
     guid: 77c48cba183410a499b32c3260b0ee77
@@ -18,14 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/kitchen.unity
     guid: bbff715a4bf31b648a001554b019d1ad
   - enabled: 1
-<<<<<<< HEAD
-=======
     path: Assets/Scenes/weatherman.unity
     guid: b8de8eff440fd5846b3d5ee7a2e32e90
   - enabled: 1
->>>>>>> 6ac8bc62f9e9122769021d9abb57412621e9418e
-    path: Assets/Scenes/Dancing.unity
-    guid: f00712e5926ef418d9c0870363e82509
-  - enabled: 1
-    path: Assets/Scenes/weatherman.unity
-    guid: b8de8eff440fd5846b3d5ee7a2e32e90
+    path: Assets/Scenes/dolphin.unity
+    guid: 4b390bb5e3835bd4291bfcb97795d48b
