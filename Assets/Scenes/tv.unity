@@ -870,10 +870,10 @@ MonoBehaviour:
   sensitivity: 1
   speed: 6
   offsetPos: 0
-  position: -30
+  position: 0
   limitRotation: 1
   maxRotation: 30
-  minRotation: -89
+  minRotation: -88
 --- !u!114 &789469338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,10 +888,10 @@ MonoBehaviour:
   anim: {fileID: 138588484}
   antennaInPosition: 0
   maxPossAntennaPos: 30
-  minPossAntennaPos: -70
+  minPossAntennaPos: -80
   sensitivity: 1
   clampPosition: 1
-  antennaNeededAntennaPosition: 45
+  antennaNeededAntennaPosition: 0
   position: 0
 --- !u!1 &877070642
 GameObject:
@@ -1579,7 +1579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 3
+  sensitivity: 5
   speed: 6
   offsetPos: 0
   position: 0
@@ -1704,7 +1704,7 @@ GameObject:
   - component: {fileID: 1832109796}
   - component: {fileID: 1832109795}
   m_Layer: 0
-  m_Name: STATIC
+  m_Name: STATIC SOUND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1482ad29789d1c8408415ff4aaf9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 0.5
+  sensitivity: 5
   speed: 6
   offsetPos: 0
   position: 0
