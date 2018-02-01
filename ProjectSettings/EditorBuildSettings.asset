@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/tv.unity
     guid: 17959f22cbce6c847927dfd35d1d39ee
   - enabled: 1
+    path: Assets/Scenes/credits.unity
+    guid: 9c9fc67630ef94b41b0383089a209e23
+  - enabled: 1
     path: Assets/Scenes/shootOut.unity
     guid: 5620388684eac47d8ab025feaca69c11
   - enabled: 1
